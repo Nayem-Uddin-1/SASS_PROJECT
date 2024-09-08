@@ -1,0 +1,95 @@
+#testimonial{
+    background-color: #F8F8FF;
+    font-family: $Open-Sans;
+    padding: 100px 0;
+
+    
+
+    h2{
+        font-size: 48px;
+        text-align: center;
+        font-weight: 900;
+        color: $title-font-color;
+        padding-bottom: 151px;
+    }
+
+    .item-card{
+        background-color: #FFFFFF;
+        max-width: 1080px;
+        position: relative;
+        padding-top: 168px;
+        border-radius: 20px;
+        position: relative;
+
+        -webkit-box-shadow: -12px 10px 48px -25px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 10px 48px -25px rgba(0,0,0,0.75);
+box-shadow: -12px 10px 48px -25px rgba(0,0,0,0.75);
+
+
+      .two{
+        position: absolute;
+        left: -150px;
+      }
+      .one{
+        position: absolute;
+        right: -150px;
+      }
+
+        .profile{
+            max-width: 147px;
+            margin: 0 auto;
+            text-align: center;
+            position:absolute;
+            top: -75px;
+            left: 43%;
+
+            img{
+                border-radius: 100%;
+                -webkit-box-shadow: -12px 10px 48px -25px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 10px 48px -25px rgba(0,0,0,0.75);
+box-shadow: -12px 10px 48px -25px rgba(0,0,0,0.75);
+
+            }
+            .rate{
+                padding-top: 45px;
+                padding-bottom: 33px;
+                .fa{
+                    color:#FF7628;
+                }
+            }
+        }
+       
+
+        h3{
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 24px;
+            font-family: $Paprika;
+            font-weight: 500;
+            line-height: 40px;
+            color: $para-font-color;
+        }
+        h4{
+            
+            text-align: center;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 40px;
+            color:#221A2C;
+            margin-top: 48px;
+        }
+        p{
+            
+            text-align: center;
+            font-size: 16px;
+            font-family: $Paprika;
+            font-weight: 500;
+            line-height: 25px;
+            color:#221A2C;
+        }
+        
+
+    }
+    
+}

@@ -1,0 +1,110 @@
+
+
+#blog{
+    background-color: #F9F9FB;
+    padding: 100px 0;
+    color: $Open-Sans;
+position: relative;
+ 
+
+
+    .blog-layer{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        
+    }
+
+    h2{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 65px;
+        color: #030314;
+        margin-bottom: 51px;
+    }
+
+    .blog-wrapper{
+      gap: 80px;
+      margin-bottom: 50px;
+      
+      .image{
+
+          img{
+               
+                border-radius: 20px;
+              }
+      }
+          
+
+              
+        .text-area{
+          
+           .text-list{
+
+            h4{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                color: #726E9E;
+
+                &:nth-child(1){
+                    color: $green-color;
+                    padding-right: 35px;
+                }
+                &:nth-child(2){
+                    
+                    padding-right: 8px;
+                }
+
+                &:nth-child(3){
+                     
+                    padding-right: 24px;
+                }
+                &:nth-child(4){
+                    
+                    padding-right: 12px;
+                }
+            }         
+           
+           }
+
+           h3{
+
+            max-width: 507px !important;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 55px;
+            color: $title-font-color;
+         
+            }
+            .read{
+                max-width: 108px;
+                position: relative;
+                
+                a{
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    color: $title-font-color;
+                    text-decoration: none;
+                }
+
+               .overlay {
+                    min-width: 28px;
+                    height: 34px;
+                    background-color: rgba(182, 232, 176, 0.7);
+                    border-top-right-radius: 100px;
+                    border-bottom-right-radius: 100px;
+                    position: absolute;
+                    top: -4px;
+                    right: 13px;
+                }
+            }
+
+        }
+    }
+   
+    
+    
+  
+}

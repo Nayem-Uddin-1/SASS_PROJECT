@@ -1,0 +1,77 @@
+#real-impact{
+font-family: $Open-Sans;
+padding-top: 91px;
+padding-bottom:109px;
+position: relative;
+
+.overlay{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+  .text-area{
+    
+    text-align: center;
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+        color: $title-font-color;
+    }
+    
+    p{
+        max-width: 558px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $para-font-color;
+        margin: 0 auto;
+    }
+  }
+
+
+.impact-items{
+    margin-top: 75px;
+    .items{
+    
+        .item{
+           
+          gap:35px;
+          padding-bottom: 40px;
+      
+          img{
+              min-width: 63px;
+              height: 63px;
+          }
+      
+          .item-text-area{
+              
+        h3{
+          font-size: 30px;
+          font-weight: 600;
+          line-height: 36px;
+          color: $title-font-color;
+          padding-bottom: 20px;
+        }
+      
+        p{
+          max-width: 343px;
+          font-size: 18px;
+          font-family: $Paprika;
+          font-weight: 400;
+          line-height: 36px;
+          color: $para-font-color;
+        }
+          }
+        }
+      }
+      
+
+
+}
+
+
+
+  
+}

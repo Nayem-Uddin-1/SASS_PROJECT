@@ -1,0 +1,14 @@
+@mixin btn ($theme:#1BBF00, $mt:0){
+
+    background-color: $theme;
+   
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $Open-Sans;
+    color: $primary-font-color;
+    padding: 14px 25px;
+    border-radius: 100px;
+    margin-top:$mt;  
+    
+    
+}

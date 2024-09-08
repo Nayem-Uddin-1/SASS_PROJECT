@@ -1,0 +1,32 @@
+
+nav{ 
+    background-color: $nav-color;
+    padding: 18px 0;
+   
+    
+
+ul{
+    gap:40px;
+    li{
+        .nav-link{
+            color: $primary-font-color !important;
+            font-weight: 600;
+            font-size: 18px; 
+            
+            &:hover{
+                color: $green-color !important;
+            }
+        }
+    }
+}
+
+.bttn{
+    @include btn;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+
+
+
+}

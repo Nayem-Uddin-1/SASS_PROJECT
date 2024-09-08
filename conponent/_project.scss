@@ -1,0 +1,64 @@
+#project{
+    font-family: $Open-Sans;
+    padding: 284px 0;
+    position: relative;
+    z-index: -1;
+
+    .projectshape{
+        position: absolute;
+        top:0;
+        right: 0 ;
+    }
+
+
+
+
+
+    .item{
+        text-align: center;
+        position: relative;
+
+
+        
+        h2{
+            font-size: 64px;
+            font-weight: 900;
+            line-height: 68px;
+            color: $green-color;
+
+            
+        }
+        p{
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 40px;
+            color: $title-font-color;
+            
+        }
+
+        
+        &::after{
+            content: '';
+            width: 3px;
+            background-color: $line-color;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 100px;
+        }
+     
+    }
+
+    .last-child::after{
+        display: none;
+        }
+
+
+
+
+
+
+
+
+}
